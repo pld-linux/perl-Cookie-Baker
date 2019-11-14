@@ -7,13 +7,13 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Cookie::Baker - Cookie string generator / parser
 Name:		perl-Cookie-Baker
-Version:	0.05
+Version:	0.11
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Cookie/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	69ae3400d69762ea0e2de8a1ee2769af
+# Source0-md5:	bc8f95893d6ec3093a62d1957e1908f2
 URL:		http://search.cpan.org/dist/Cookie-Baker/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -33,8 +33,8 @@ Cookie::Baker provides simple cookie string generator and parser.
 
 %build
 %{__perl} Build.PL \
-	destdir=$RPM_BUILD_ROOT \
-	installdirs=vendor
+	--destdir=$RPM_BUILD_ROOT \
+	--installdirs=vendor
 ./Build
 
 %{?with_tests:./Build test}
