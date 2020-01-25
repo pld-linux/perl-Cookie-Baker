@@ -4,7 +4,6 @@
 #
 %define		pdir	Cookie
 %define		pnam	Baker
-%include	/usr/lib/rpm/macros.perl
 Summary:	Cookie::Baker - Cookie string generator / parser
 Name:		perl-Cookie-Baker
 Version:	0.11
