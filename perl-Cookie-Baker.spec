@@ -6,13 +6,13 @@
 %define		pnam	Baker
 Summary:	Cookie::Baker - Cookie string generator / parser
 Name:		perl-Cookie-Baker
-Version:	0.11
+Version:	0.12
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Cookie/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	bc8f95893d6ec3093a62d1957e1908f2
+# Source0-md5:	7ab63698d2f24a8cfe31a7ea270e9d2d
 URL:		http://search.cpan.org/dist/Cookie-Baker/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
