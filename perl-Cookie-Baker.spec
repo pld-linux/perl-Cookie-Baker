@@ -7,14 +7,14 @@
 Summary:	Cookie::Baker - Cookie string generator / parser
 Name:		perl-Cookie-Baker
 Version:	0.14
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-module/Cookie/KAZEBURO/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	283c0998bd159a0057cd5f1665ad9f42
 URL:		http://search.cpan.org/dist/Cookie-Baker/
-BuildRequires:	perl-Module-Build
+BuildRequires:	perl-Module-Build-Tiny >= 0.035
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
